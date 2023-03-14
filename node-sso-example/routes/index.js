@@ -16,8 +16,8 @@ app.use(
 
 const workos = new WorkOS(process.env.WORKOS_API_KEY)
 const clientID = process.env.WORKOS_CLIENT_ID
-const organizationID = ''
-const redirectURI = 'http://localhost:8000/callback'
+const organizationID = 'org_01GVGH144DJXQWX3FZV3B0813Y'
+const redirectURI = 'https://test-application-fyq1w.kinsta.app/callback'
 const state = ''
 
 router.get('/', function (req, res) {
